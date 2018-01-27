@@ -363,6 +363,7 @@
       
         
           <img src="http://p03yadgcg.bkt.clouddn.com/static/images/sun.jpeg">
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2018/01/27/晓宇宙万象/#more" rel="contents">
@@ -570,6 +571,40 @@
 
 
           
+    <div onclick="showGitment()" id="gitment_title" class="gitment_title">显示 Gitment 评论</div>
+    <div id="container" style="display:none"></div>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <script>
+    const myTheme = {
+      render(state, instance) {
+        const container = document.createElement('div');
+        container.lang = "en-US";
+        container.className = 'gitment-container gitment-root-container';
+        container.appendChild(instance.renderHeader(state, instance));
+        container.appendChild(instance.renderEditor(state, instance));
+        container.appendChild(instance.renderComments(state, instance));
+        container.appendChild(instance.renderFooter(state, instance));
+        return container;
+      }
+    }
+    function showGitment() {
+      $("#gitment_title").attr("style", "display:none");
+      $("#container").attr("style", "").addClass("gitment_container");
+      var gitment = new Gitment({
+        id: window.location.pathname,
+        theme: myTheme,
+        owner: '',
+        repo: '',
+        oauth: {
+          client_id: '072205c7ffe30620e679',
+          client_secret: 'ecfab5dfe5659a578a3d0da4ad0f6223deca01d7'
+        }
+      });
+      gitment.render('container');
+    }
+    </script>
+
 
         </div>
         
@@ -829,6 +864,19 @@
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+
+    
 
 
 
