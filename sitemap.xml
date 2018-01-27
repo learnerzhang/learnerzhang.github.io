@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://zhangzhen.ltd/2018/01/27/hello-world/</loc>
+    <loc>http://zhangzhen.ltd/about/index.html</loc>
     
-    <lastmod>2018-01-27T08:24:47.052Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhangzhen.ltd/2018/01/27/new-page-name/</loc>
-    
-    <lastmod>2018-01-27T08:23:16.140Z</lastmod>
+    <lastmod>2018-01-27T08:58:49.217Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zhangzhen.ltd/2018/01/27/new-draft-page-name/</loc>
+    <loc>http://zhangzhen.ltd/tags/index.html</loc>
     
-    <lastmod>2018-01-27T08:22:48.493Z</lastmod>
+    <lastmod>2018-01-27T08:58:03.507Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhangzhen.ltd/2018/01/27/%E4%B8%80%E5%8F%B6%E4%B8%87%E5%8F%A4%E7%A7%8B/</loc>
+    
+    <lastmod>2018-01-27T08:50:14.317Z</lastmod>
     
   </url>
   
@@ -26,27 +26,6 @@
     <loc>http://zhangzhen.ltd/categories/index.html</loc>
     
     <lastmod>2018-01-27T08:21:52.993Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhangzhen.ltd/tags/index.html</loc>
-    
-    <lastmod>2018-01-27T08:21:06.446Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhangzhen.ltd/2018/01/27/%E4%B8%80%E5%8F%B6%E4%B8%87%E5%8F%A4%E7%A7%8B/</loc>
-    
-    <lastmod>2018-01-27T08:18:43.012Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhangzhen.ltd/about/index.html</loc>
-    
-    <lastmod>2018-01-27T07:32:32.872Z</lastmod>
     
   </url>
   
